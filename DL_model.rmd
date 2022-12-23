@@ -48,7 +48,7 @@ b <- c(3L,3L,3L,2L,3L,0L,1L)
 c <- c(1L,1L,2L,2L,2L,0L,1L)
 
 # create a data frame and name columns
-new_df <- data.frame()
+new_df<- data.frame()
 new_df<- rbind(new_df, a)
 new_df<- rbind(new_df, b)
 new_df<- rbind(new_df, c)
