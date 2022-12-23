@@ -26,7 +26,8 @@ __The 7 items/questions in the survey module and their response options are as f
 
 __Model Card__
 - Input: one or more observations, where each observation correponds to responses to the 7 questions above
-- Input Order: (term_pdf, term_internet, term_browser, term_bookmark, term_url, research, term_torrent)
+- Input Order: (term_pdf, term_internet, term_browser, term_bookmark, term_url, search, term_torrent)
+- Example input: (3, 5, 4, 2, 3, 1, 2)
 - Output: for each observation the model predicts a digital literacy score between 0 and 1
 - Model: A random forest model trained using 100,000 trees. We used the randomForest library in R and employed default values for other hyperparameters.
 - Model Performance: R^2 over OOB samples was 0.8 and MSE was 0.019
