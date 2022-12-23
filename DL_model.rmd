@@ -42,7 +42,7 @@ rf_model <- readRDS("./rf_model.rds")
 print(rf_model)
 
 # create new samples, where each sample if a 7-tuple (L below refers to an integer so 4L means the response was 4)
-# inpur order: (term_pdf, term_internet, term_browser, term_bookmark, term_url, research, term_torrent)
+# inpur order: (term_pdf, term_internet, term_browser, term_bookmark, term_url, search, term_torrent)
 a <- c(4L,4L,4L,3L,4L,1L,4L)
 b <- c(3L,3L,3L,2L,3L,0L,1L)
 c <- c(1L,1L,2L,2L,2L,0L,1L)
