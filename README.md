@@ -6,9 +6,11 @@ This repository contains a trained Random Forest (RF) model for predicting the d
 - For any questions or comments, please email ihsan.qazi@lums.edu.pk
 
 The 7 items/questions in the survey module and their response options are as follows:
- 1. Are you able to search/google things online? Yes(1); No(0)
-    How familiar are you with the following computer and Internet-related items? Please choose a number
-    between 1 and 5, where 1 represents no understanding and 5 represents full understanding of the item:
+ 1. Are you able to search/google things online? [Response Options: Yes(1); No(0)]
+    
+ - How familiar are you with the following computer and Internet-related items? Please choose a number
+   between 1 and 5, where 1 represents no understanding and 5 represents full understanding of the item:
+ 
  2. Internet 1-5
  3. Browser 1-5
  4. PDF 1-5
