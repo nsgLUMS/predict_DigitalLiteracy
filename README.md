@@ -1,7 +1,7 @@
 # predict_DigitalLiteracy
 This repository contains the trained Random Forest (RF) model for predicting the digital literacy of individuals using the best 7-item survey module (referred to as platform-neutral module) described in the paper, _"Validated Digital Literacy Measures for Populations with Low Levels of Internet Experiences."_
 
-- __Paper Authors__: Dr.Ayesha Ali, Dr.Agha Ali Raza, and Dr.Ihsan Ayyub Qazi (LUMS)
+- __Paper Authors__: Dr. Ayesha Ali, Dr. Agha Ali Raza, and Dr. Ihsan Ayyub Qazi (LUMS)
 - __R code__: This code provides a trained Random Forest (RF) model in the R language
 - __Note__: For any questions or comments, please email ihsan.qazi@lums.edu.pk
 
@@ -32,4 +32,4 @@ __Model Card__
 - Model: A random forest model trained using 100,000 trees. We used the randomForest library in R and employed default values for other hyperparameters.
 - Model Performance: R^2 over OOB samples was 0.8 and MSE was 0.019
 - Data: The model was trained over a sample of 143 individuals from Pakistan with different levels of digital literacy (please refer to the paper for a detailed description of the model)
-- Suitability: The model is best suited for populations with either low levels of Internet experiences or populations compriseing a mix of low and high digital literacy users
+- Suitability: The model is best suited for populations comprising a high proportion of individuals with low levels of digital literacy.
