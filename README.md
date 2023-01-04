@@ -1,5 +1,5 @@
 # predict_DigitalLiteracy
-This repository contains the trained Random Forest (RF) model for predicting the digital literacy of individuals using the best 7-item survey module (referred to as platform-neutral module) described in the paper, _"Validated Digital Literacy Measures for Populations with Low Levels of Internet Experiences," The Journal of Engineering in Economic Development, 2023_
+This repository contains the trained Random Forest (RF) model for predicting the digital literacy of individuals using the best 7-item survey module (referred to as platform-neutral module) described in the paper, _"Validated Digital Literacy Measures for Populations with Low Levels of Internet Experiences," The Journal of Engineering in Economic Development (Dev Eng), 2023_
 
 - __Paper Authors__: Dr. Ayesha Ali, Dr. Agha Ali Raza, and Dr. Ihsan Ayyub Qazi (LUMS)
 - __R code__: This code provides a trained Random Forest (RF) model in the R language
